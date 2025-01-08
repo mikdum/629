@@ -1,0 +1,45 @@
+h1,h2{
+    padding-left: 40px;
+}
+p{
+    padding-left: 20px;
+}
+#heads{
+    display: flex;
+    margin: 20px 20px;
+
+}
+.footer-container4 {
+    position: relative;
+    padding: 60px 0;
+    background-color: #414141;
+    color: #fff;
+}
+#grad {
+    background-image: linear-gradient(rgb(43, 48, 58), yellow, rgb(1, 47, 1));
+  }
+.mainblock {
+
+
+    background-image: 
+    /* top image*/
+    linear-gradient(to bottom, rgb(43, 48, 58) 20%, rgba(100, 51, 51, 0.6) 86%, rgba(51, 51, 51, 0.8) 100%),
+    /*bottom image*/
+    url('./images/otavankatu_drone2.jpg');
+ 
+  color: white; 
+  }
+
+  #logo{
+    width: 10%;
+}
+
+@media (max-width: 480px) {
+
+    #logo { display: none; }
+    
+    .footer-container4 { display: none; }
+    .nav-tabs { display: block; }
+    
+     
+    }/* 
